@@ -1,0 +1,15 @@
+when i plan to use Rstudio update local files to github using git according to the methods from internet:
+https://blog.csdn.net/yijiaobani/article/details/81270243
+https://www.jianshu.com/p/25cd43858f43
+when push the codes, it comes warning: could not find UI helper 'GitHub.UI'
+
+the resolution i get from: https://code2care.org/git/warning-could-not-find-ui-helper-github-ui-on-windows
+the issue seems to be with Git Credential Manager v 2.39.0 which is installing along with the git install.
+
+Workaround Fix:
+Until a new release is available, below are some workarounds.
+
+  Reinstall Git without selecting 'none' on the screen where have the option to "choose a Credential Manager"(not test)
+  Rollback to Git version 2.38.x (older releases https://github.com/git-for-windows/git/releases/)(not working, or my setting is wrong)
+  Use GitHub Desktop application.(convenient method)
+    ref: https://zhuanlan.zhihu.com/p/367779566
