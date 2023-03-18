@@ -1,3 +1,7 @@
+# use jiebaR package
+# https://www.cnblogs.com/wjunge/p/10141723.html
+
+
 setwd("D:\\Rplot/")
 library(jiebaR)
 library(wordcloud2)
